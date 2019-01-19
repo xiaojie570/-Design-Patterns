@@ -14,8 +14,13 @@ public class Main {
 
         FilterChain filterChain = new FilterChain();
         filterChain.addFilter(new HTMLFilter())
-                .addFilter(new SesitiveFilter())
+                .addFilter(new SesitiveFilter());
+
+        FilterChain filterChain1 = new FilterChain();
+        filterChain1.addFilter(new NewFilter())
                 .addFilter(new FaceFilter());
+
+        filterChain.addFilter(filterChain1);
 
         msgProcessor.setFilters(filterChain);
 

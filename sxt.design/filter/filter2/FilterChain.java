@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by lenovo on 2019/1/19.
  */
-public class FilterChain {
+public class FilterChain implements Filter{
     private List<Filter> filterList = new ArrayList<>();
 
 
