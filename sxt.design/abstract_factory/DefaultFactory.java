@@ -4,8 +4,6 @@ package abstract_factory;
  * Created by lenovo on 2019/1/14.
  */
 public class DefaultFactory extends AbstractFactory{
-
-
     @Override
     public Vehicle createVehicle() {
         return new Horse();
@@ -20,4 +18,5 @@ public class DefaultFactory extends AbstractFactory{
     public Food createFood() {
         return new Apple();
     }
+
 }

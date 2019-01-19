@@ -9,11 +9,13 @@ import factory.VehicleFactory;
  */
 public class Main {
     public static void main(String[] args) {
-        Horse h = new Horse();
-        AKM akm = new AKM();
-        akm.shoot();
-        Apple apple = new Apple();
-        apple.getName();
-        h.run();
+        AbstractFactory abstractFactory = new DefaultFactory();
+        Vehicle vehicle = abstractFactory.createVehicle();
+        Food food = abstractFactory.createFood();
+        Weapon weapon = abstractFactory.createWeapon();
+
+        vehicle.run();
+        food.printName();
+        weapon.shoot();
     }
 }
