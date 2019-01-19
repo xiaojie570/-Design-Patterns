@@ -10,6 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
         Properties pros = new Properties();
+        // 将 class 文件装载到内存
         pros.load(Main.class.getClassLoader().getResourceAsStream("spring_factory/spring.properties"));
         String vehicleTypeName = pros.getProperty("VehicleType");
         System.out.println(vehicleTypeName);
