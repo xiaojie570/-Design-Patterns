@@ -1,9 +1,11 @@
-package strategy;
+package strategy.strategy0;
+
+import java.lang.*;
 
 /**
  * Created by lenovo on 2019/1/21.
  */
-public class Dog implements Comparable{
+public class Dog implements java.lang.Comparable {
     private int food;
 
     public Dog(int food) {

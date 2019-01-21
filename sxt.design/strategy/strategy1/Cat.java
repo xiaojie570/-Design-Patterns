@@ -1,12 +1,16 @@
-package strategy;
+package strategy.strategy1;
 
+
+import strategy.strategy0.*;
 
 /**
  * Created by lenovo on 2019/1/21.
  */
-public class Cat implements Comparable{
+public class Cat implements strategy.strategy0.Comparable{
     private int height;
     private int weight;
+
+    private Comparator comparator = new CatWeightComparator();
 
     public Cat(int height, int weight) {
         this.height = height;
@@ -35,21 +39,11 @@ public class Cat implements Comparable{
         return "height: " + height + " | " + "weight:" + weight + "     ";
     }
 
+
+
+
     @Override
     public int compareTo(Object o) {
-        try {
-            if(o instanceof Cat) {
-                Cat cat = (Cat) o;
-                if(this.getHeight() > cat.getHeight())
-                    return 1;
-                else if(this.getHeight() < cat.getHeight())
-                    return -1;
-                else
-                    return 0;
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return -100;
+        return comparator.compare(this,o);
     }
 }

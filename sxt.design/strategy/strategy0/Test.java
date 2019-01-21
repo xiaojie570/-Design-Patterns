@@ -1,4 +1,4 @@
-package strategy;
+package strategy.strategy0;
 
 /**
  * Created by lenovo on 2019/1/21.

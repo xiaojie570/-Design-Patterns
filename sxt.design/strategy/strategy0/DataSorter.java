@@ -1,4 +1,6 @@
-package strategy;
+package strategy.strategy0;
+
+import java.lang.*;
 
 /**
  * Created by lenovo on 2019/1/21.
