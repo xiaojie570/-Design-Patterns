@@ -1,4 +1,4 @@
-package spring_factory;
+package factory.spring_factory;
 
 /**
  * Created by lenovo on 2019/1/14.

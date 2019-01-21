@@ -1,4 +1,4 @@
-package static_factory;
+package factory.static_factory;
 
 import factory.Moveable;
 import factory.Plane;

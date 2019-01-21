@@ -1,8 +1,4 @@
-package abstract_factory;
-
-import factory.HorseFactory;
-import factory.Moveable;
-import factory.VehicleFactory;
+package factory.abstract_factory;
 
 /**
  * Created by lenovo on 2019/1/14.

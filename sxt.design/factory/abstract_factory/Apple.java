@@ -1,6 +1,4 @@
-package abstract_factory;
-
-import java.io.File;
+package factory.abstract_factory;
 
 /**
  * Created by lenovo on 2019/1/14.

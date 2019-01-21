@@ -1,6 +1,4 @@
-package abstract_factory;
-
-import factory.Moveable;
+package factory.abstract_factory;
 
 /**
  * Created by lenovo on 2019/1/14.

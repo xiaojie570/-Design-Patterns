@@ -1,4 +1,4 @@
-package static_factory;
+package factory.static_factory;
 
 /**
  * Created by lenovo on 2019/1/14.

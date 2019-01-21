@@ -1,4 +1,4 @@
-package abstract_factory;
+package factory.abstract_factory;
 
 /**
  * Created by lenovo on 2019/1/14.
