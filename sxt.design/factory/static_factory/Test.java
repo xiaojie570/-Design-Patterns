@@ -1,7 +1,7 @@
 package factory.static_factory;
 
-import factory.Moveable;
-import factory.Plane;
+import factory.basic_factory.Moveable;
+import factory.basic_factory.Plane;
 
 /**
  * Created by lenovo on 2019/1/14.
