@@ -1,4 +1,4 @@
 package bridge;
 
-public class Flower extends Girl {
+public class Flower extends GiftImpl {
 }

@@ -11,8 +11,11 @@ public class Boy {
         this.name = name;
     }
 
-    public boolean pursue(Girl girl) {
-        return false;
+    public void pursue(Girl girl) {
+        Gift gift = new WarmGift(new Ring());
+    }
+
+    public void give(Girl girl, Gift gift) {
     }
 
 

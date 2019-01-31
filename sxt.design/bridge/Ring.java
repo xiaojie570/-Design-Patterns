@@ -1,4 +1,4 @@
 package bridge;
 
-public class Ring extends Gift{
+public class Ring extends GiftImpl{
 }
